@@ -1,0 +1,10 @@
+[project]
+name = "test-project"
+version = "0.1.0"
+description = "My test project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+my_test = "my_test:main"
