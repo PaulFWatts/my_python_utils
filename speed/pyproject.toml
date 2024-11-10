@@ -1,0 +1,12 @@
+[project]
+name = "speed"
+version = "0.1.0"
+description = "Check Internet Speed using Python"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "speedtest-cli>=2.1.3",
+]
+
+[project.scripts]
+speed = "speed:main"
